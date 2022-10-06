@@ -1,0 +1,91 @@
+.box-hero1 {
+  border: none;
+  background-color: #b28760;
+  padding: 8px 14px;
+  border: none;
+
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+.box-hero1:hover {
+  /* height: 50px;
+  width: 120px; */
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+@media screen and (max-width: 390px) {
+  .box-hero1 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 320px) {
+  .box-hero1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+    padding: 8px 14px;
+    max-width: 290px;
+  }
+}
+
+.h5-hero1 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+}
+.h6-hero1 {
+  font-size: 20px;
+  color: #fff;
+  font-size: 16px;
+}
+.priceQTH {
+  font-size: 20px;
+  padding-top: 3px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 23px;
+  padding-left: 10px;
+}
+
+.btn-hero1 {
+  border: none;
+  background-color: #15233b;
+  color: white;
+  padding: 6px 12px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 0 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-hero1:hover {
+  background-color: #fff;
+  color: #15233b;
+  /* height: 50px;
+  width: 120px; */
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+input {
+  border: none;
+  border-radius: 3px;
+  height: 40px;
+  width: 60%;
+}
+
+/* when i click button i want the button text to become bold */
+.btn-active {
+  font-weight: 900;
+  background-color: white;
+  color: #15233b;
+  height: 40px;
+  padding: 6px 12px;
+  margin: 0 1rem;
+}
+
+/* flex flex-wrap justify-center gap-2 w-[300px] md:w-[400px] lg:w-[500px] */

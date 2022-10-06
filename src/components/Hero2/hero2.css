@@ -1,0 +1,37 @@
+.box {
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 20px;
+  /* width: 400px; */
+  height: 125px;
+  background-color: #b28760;
+  padding: 8px 14px;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+.box:hover {
+  /* height: 50px;
+  width: 120px; */
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+h5 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+}
+p {
+  font-size: 13px;
+  color: #fff;
+}
+.priceQTH-hero2 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 23px;
+  padding-left: 10px;
+}
